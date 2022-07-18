@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap')
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: rgba(48, 52, 51, .7);
+	border-radius: 20px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+	color: black;
+	!important 
+}
+
+footer a img{
+	width: 50px;
+}
+
+footer div div{
+	display: inline-block;
+	margin-left: 80px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+li{
+	text-decoration: none;
+}
+
+main div ul li{
+	color: whitesmoke;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+
+textarea {
+    resize: none;
+}
+
+.bg-color{
+	background-color: #060606;
+}
+
+.icono{
+	width: 40px;
+	margin-left: 49%;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+
+.container{
+	width: 90vw;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/productos/iphone13pro.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-left: 4%;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+}
+
+.container-text{
+	color: whitesmoke;
+	text-align: center;
+	width: 50%;
+}
+
+.container-mini1{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+}
+
+.container-mini1-text{
+	color: whitesmoke;
+	text-align: center;
+	width: 30%;
+	font-size: 1.5rem;
+}
+
+
+.container-mini2{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12mini.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+}
+
+.container-mini2-text{
+	color: whitesmoke;
+	text-align: center;
+	width: 30%;
+	font-size: 1.5rem;
+}
+.container-mini3{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12pro.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+}
+
+.container-mini3-text{
+	color: whitesmoke;
+	text-align: center;
+	width: 30%;
+	font-size: 1.5rem;
+}
+.container-mini4{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12promax.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+}
+
+.container-mini4-text{
+	color: whitesmoke;
+	text-align: center;
+	width: 30%;
+	font-size: 1.5rem;
+}
+.container-mini5{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone13mini.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+}
+
+.container-mini5-text{
+	color: whitesmoke;
+	text-align: center;
+	width: 30%;
+	font-size: 1.5rem;
+}
+.container-mini6{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone13.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+}
+
+.container-mini6-text{
+	color: whitesmoke;
+	text-align: center;
+	width: 30%;
+	font-size: 1.5rem;
+}
+
+/* footer */
+
+#instagram-logo{
+	width: 90px;
+}
+
+#twitter-logo{
+	width: 50px;
+	margin-bottom: 8px;
+}
+
+footer{
+	background-color: rgba(48, 52, 51, .7);
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.aside-bg{
+	background-color: rgba(48, 52, 51, .7);
+	border-radius: 20px;
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.foto-perfil{
+	width: 100px;
+	margin-left: 47%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.nosotros-text{
+	background-color: #7E7979;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 50px;
+	margin-left: 30%;
+	width: 600px;
+}
+
+#map-box{
+	width: 800px;
+	height: 400px;
+	margin-left: 25%;
+	margin-bottom: 70px;
+	border-radius: 20px;
+}
+
+#map{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.contact-form{
+	background-color: #57563E;
+	width: 700px;
+	height: 400px;
+	border-radius: 20px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.nav-fixed{
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 99%;
+	height: 80px;
+	scroll-behavior: smooth;
+}
+
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+}
+
+.iphones-order{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footer-align{
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-around;
+}
+
+.input-style{
+	border-radius: 20px;
+	border-style: none;
+	background-color: #191919;
+	padding: 10px 10px 10px 10px;
+}
+
+#comentarios-box{
+	height: 200px;
+	width: 200px;
+	
+}
+
+
+.productos__img--size{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+
+.text__decoration--none{
+	list-style: none;
+}
+
+.carrito{	
+	background-color: rgba(48, 52, 51, .7);
+	border-radius: 20px;
+	width: 170px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 20px;
+	justify-content: center;
+	display: flex;
+}
+
+.productos__flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.text__chart{
+	color: whitesmoke;
+}
+
+
+/* -----------------animaciones --------------*/
+
+
+.botonera ul li a{
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+}
+
+.botonera ul li a:hover{
+	color: black;
+	font-weight: 600;
+	background-size: 100% 2px;
+}
+
+.animation__up:hover{
+	transform: translateY(-20px);
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	box-shadow: 10px 10px 50px rgba(0,0,0,0.9);
+}
+
+/* -----------------grid--------------------*/
+
+.contenedor__grid{
+	display: grid;
+	width: 99vw;
+	grid-template-columns: 15% 70% 15%;
+	grid-template-rows: repeat(3, auto);
+	grid-template-areas: 
+	"aside products carrito"
+	"aside products carrito"
+	"aside products carrito";
+}
+
+#aside{
+	grid-area: aside;
+}
+
+#products{
+	grid-area: products;
+}
+
+#carrito{
+	grid-area: carrito;
+}
+
+/*----------------responsive mobile -----------*/
+
+@media (max-with: 600px){
+	.contenedor__grid{
+
+	}
+	.aside-bg{
+		display: flex;
+		flex-direction: row;
+	}
+}
