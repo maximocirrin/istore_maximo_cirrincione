@@ -17,12 +17,12 @@ nav ul li{
 	display: inline-block;
 }
 
-nav ul li a{
+#animaciones-links{
 	text-decoration: none;
 	color: whitesmoke;
 }
 
-nav ul li a:hover{
+#animaciones-links:hover{
 	text-decoration: none;
 	color: black;
 	!important 
@@ -54,6 +54,10 @@ main div ul li{
 
 textarea {
     resize: none;
+}
+
+.bg-nav{
+	background-color: rgba(48, 52, 51, .7);
 }
 
 .bg-color{
@@ -282,7 +286,7 @@ footer{
 }
 
 .contact-form{
-	background-color: #57563E;
+	background-color: #565252;
 	width: 700px;
 	height: 400px;
 	border-radius: 20px;
@@ -290,12 +294,10 @@ footer{
 	margin-bottom: 20px;
 }
 
-.nav-fixed{
+#nav-sticky{
 	position: sticky;
 	top: 0;
 	left: 0;
-	width: 99%;
-	height: 80px;
 	scroll-behavior: smooth;
 }
 
@@ -322,12 +324,7 @@ footer{
 	border-style: none;
 	background-color: #191919;
 	padding: 10px 10px 10px 10px;
-}
-
-#comentarios-box{
-	height: 200px;
-	width: 200px;
-	
+	margin-bottom: 50px;
 }
 
 
@@ -381,9 +378,12 @@ footer{
 
 
 .text__chart{
-	color: whitesmoke;
+	color: #565252;
 }
 
+.comentarios-box{
+	width: 70%;
+}
 
 
 /* -----------------grid--------------------*/
