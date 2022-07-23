@@ -20,12 +20,19 @@ nav ul li{
 #animaciones-links{
 	text-decoration: none;
 	color: whitesmoke;
+	display: flex;
 }
 
 #animaciones-links:hover{
 	text-decoration: none;
 	color: black;
 	!important 
+}
+
+#nav__justify{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
 }
 
 footer a img{
@@ -47,8 +54,10 @@ li{
 
 main div ul li{
 	color: whitesmoke;
-	text-decoration: none;
+	list-style: none;
 	margin-top: 50px;
+	font-size: 10px;
+	margin-left: -10px;
 }
 
 
@@ -56,8 +65,14 @@ textarea {
     resize: none;
 }
 
+div ul div li p{
+	font-size: 0,62rem;
+	margin-top: -30px;
+}
+
 .bg-nav{
 	background-color: rgba(48, 52, 51, .7);
+	width: 99vw;
 }
 
 .bg-color{
@@ -88,9 +103,10 @@ textarea {
 	background-size: cover;
 	background-position: center;
 	border-radius: 20px;
-	margin-left: 4%;
+	margin-left: 6%;
 	background-blend-mode: soft-light;
 	background-color: rgb(40, 40, 40);
+	margin-bottom: 8%;
 }
 
 .container-text{
@@ -112,6 +128,8 @@ textarea {
 	padding-bottom: 40px;
 	background-blend-mode: soft-light;
 	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
 }
 
 .container-mini1-text{
@@ -135,6 +153,8 @@ textarea {
 	padding-bottom: 40px;
 	background-blend-mode: soft-light;
 	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
 }
 
 .container-mini2-text{
@@ -156,6 +176,8 @@ textarea {
 	padding-bottom: 40px;
 	background-blend-mode: soft-light;
 	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
 }
 
 .container-mini3-text{
@@ -177,14 +199,19 @@ textarea {
 	padding-bottom: 40px;
 	background-blend-mode: soft-light;
 	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
 }
 
 .container-mini4-text{
 	color: whitesmoke;
 	text-align: center;
 	width: 30%;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
+	display: flex;
+	flex-direction: column;
 }
+
 .container-mini5{
 	width: 400px;
 	height: 200px;
@@ -198,6 +225,8 @@ textarea {
 	padding-bottom: 40px;
 	background-blend-mode: soft-light;
 	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
 }
 
 .container-mini5-text{
@@ -219,6 +248,8 @@ textarea {
 	padding-bottom: 40px;
 	background-blend-mode: soft-light;
 	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
 }
 
 .container-mini6-text{
@@ -247,12 +278,12 @@ footer{
 
 .aside-bg{
 	background-color: rgba(48, 52, 51, .7);
-	border-radius: 20px;
-	width: 200px;
-	padding-top: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 18vw;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
-	margin-top: 30px;
 }
 
 .foto-perfil{
@@ -287,7 +318,7 @@ footer{
 
 .contact-form{
 	background-color: #565252;
-	width: 700px;
+	width: 99vw;
 	height: 400px;
 	border-radius: 20px;
 	padding-left: 20px;
@@ -301,11 +332,6 @@ footer{
 	scroll-behavior: smooth;
 }
 
-
-.nav-links{
-	display: flex;
-	justify-content: space-around;
-}
 
 .iphones-order{
 	display: flex;
@@ -329,10 +355,12 @@ footer{
 
 
 .productos__img--size{
-	width: 200px;
-	height: 200px;
+	width: 80px;
+	height: 100px;
 	object-fit: cover;
 	border-radius: 20px;
+	margin-top: -50px;
+	margin-left: 10px;
 }
 
 
@@ -342,38 +370,44 @@ footer{
 
 .carrito{	
 	background-color: rgba(48, 52, 51, .7);
-	border-radius: 20px;
-	width: 170px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: -12px;
 	justify-content: center;
 	display: flex;
+	width: 15vw;
+	margin-bottom: 20px;
 }
 
 .productos__flex{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .productos__border--white{
 	border-width: 1px;
-	padding-right: 25px;
+	padding-right: 3px;
+	padding-left: 7px;
 	border-left: solid whitesmoke;
 	border-right: solid whitesmoke;
 	border-top: none;
 	border-bottom: none;
 	background-color: rgba(10, 10, 10, 1.0);
+	width: 100px;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .productos__text{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	line-height: 0px;
+	margin-top: -50px;
+	margin-left: 15px;
 }
 
 
@@ -392,11 +426,11 @@ footer{
 	display: grid;
 	width: 98vw;
 	grid-template-columns: 15% 70% 15%;
-	grid-template-rows: repeat(3, auto);
+	grid-template-rows: auto auto auto ;
 	grid-template-areas: 
+	"nav nav nav"
 	"aside products carrito"
-	"aside products carrito"
-	"aside products carrito";
+	"footer footer footer";
 }
 
 #aside{
@@ -411,22 +445,88 @@ footer{
 	grid-area: carrito;
 }
 
+#nav{
+	grid-area: nav;
+}
+
+#footer{
+	grid-area: footer;
+}
 /*----------------responsive mobile -----------*/
 
-@media (max-with: 600px){
-	.contenedor__grid{
-
-	}
-	.aside-bg{
-		display: flex;
-		flex-direction: row;
+@media (min-width: 435px){
+	.productos__border--white{
+			margin-left: 10px;
+			margin-right: 10px;
 	}
 }
 
+
+@media (min-width: 699px){
+	.productos__border--white{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+
+@media (min-width: 992px){
+	.productos__border--white{
+		width: 200px;
+		height: 400px;
+	}
+
+	.productos__img--size{
+		width: 160px;
+		height: 200px;
+		margin-left: 20px;
+	}
+
+	div ul div li p{
+		font-size: 20px;
+	}
+
+	div ul div li h6{
+		font-size: 30px;
+	}
+
+	main div ul li{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1024px){
+	.productos__border--white{
+		width: 100px;
+		height: 200px;
+	}
+
+	.productos__img--size{
+		width: 80px;
+		height: 100px;
+		margin-left: 12px;
+	}
+
+	div ul div li p{
+		font-size: 10px;
+	}
+
+	div ul div li h6{
+		font-size: 15px;
+	}
+
+	main div ul li{
+		font-size: 15px;
+	}
+	.aside-bg{
+		width: 14vw;
+		margin-left: 18px;
+	}
+}
 /* -----------------animaciones --------------*/
 
 
-.botonera ul li a{
+.botonera a{
 	background-image: linear-gradient(currentColor, currentColor);
 	background-position: 0% 100%;
 	background-repeat: no-repeat;
@@ -434,7 +534,7 @@ footer{
 	transition: background-size .3s;
 }
 
-.botonera ul li a:hover{
+.botonera a:hover{
 	color: black;
 	font-weight: 600;
 	background-size: 100% 2px;
@@ -444,15 +544,17 @@ footer{
 	transform: translateY(-20px);
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
-	box-shadow: 1px 1px 65px 22px rgba(0,0,0,0.88);
--webkit-box-shadow: 1px 1px 65px 22px rgba(0,0,0,0.88);
--moz-box-shadow: 1px 1px 65px 22px rgba(0,0,0,0.88);
+	box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1);
+	-webkit-box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1);
+	-moz-box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1)
 }
 
 
 .productos__shadow--white:hover{
+	transform: translateY(-20px);
 	cursor: pointer;
+	transition: all 0.5s ease-in-out;
 	box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1);
--webkit-box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1);
--moz-box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1);
+	-webkit-box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1);
+	-moz-box-shadow: 0px -1px 54px 18px rgba(177,189,175,0.1);
 }
