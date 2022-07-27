@@ -1,0 +1,60 @@
+nav{
+	background-color: $mainColor;
+	border-radius: 20px;
+	padding: 10px;
+	margin-bottom: 30px;
+	ul li{
+		display: inline-block;
+	}
+}
+
+.icono{
+	width: 40px;
+	margin-left: 49%;
+}
+
+.bg-nav{
+	background-color: $mainColor;
+	width: 96vw;
+	margin-left: 1%;
+}
+
+#nav__justify{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#nav-sticky{
+	position: sticky;
+	top: 0;
+	left: 0;
+	scroll-behavior: smooth;
+}
+
+//animaciones
+
+#animaciones-links{
+	text-decoration: none;
+	color: whitesmoke;
+	display: flex;
+	&:hover{
+		text-decoration: none;
+		color: black; 
+	}
+}
+
+.botonera a{
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+	&:hover{
+		color: black;
+		font-weight: 600;
+		background-size: 100% 2px;
+	}
+}
+
+//ends animaciones

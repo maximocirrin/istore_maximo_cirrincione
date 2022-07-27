@@ -1,0 +1,50 @@
+@media (min-width: 435px){
+	.productos__border--white{
+			margin-left: 10px;
+			margin-right: 10px;
+	}
+}
+
+
+@media (min-width: 699px){
+	.productos__border--white{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+
+@media (min-width: 992px){
+	.productos-list ul li{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1024px){
+	.productos__border--white{
+		width: 100px;
+		height: 200px;
+	}
+
+	.productos__img--size{
+		width: 80px;
+		height: 100px;
+	}
+
+	div ul div li h6{ 
+		font-size: 15px;
+	}
+
+	div ul div li p{
+		font-size: 10px;
+	}
+
+
+	main div ul li{
+		font-size: 15px;
+	}
+	.aside-bg{
+		width: 14vw;
+		margin-left: 18px;
+	}
+}

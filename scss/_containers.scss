@@ -1,0 +1,184 @@
+.container{
+	width: 90vw;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/productos/iphone13pro.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-left: 6%;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+	margin-bottom: 8%;
+}
+
+.container-text{
+	color: $white;
+	text-align: center;
+	width: 50%;
+	font-family: "Cinzel", serif;
+}
+
+.container-mini1{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
+}
+
+.container-mini1-text{
+	color: $white;
+	text-align: center;
+	width: 30%;
+	font-size: 1rem;
+	font-family: $cinzel;
+	list-style: circle;
+}
+
+
+.container-mini2{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12mini.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
+}
+
+.container-mini2-text{
+	color: $white;
+	text-align: center;
+	width: 30%;
+	font-size: 1rem;
+	font-family: $cinzel;
+	list-style: circle;
+}
+.container-mini3{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12pro.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
+}
+
+.container-mini3-text{
+	color: $white;
+	text-align: center;
+	width: 30%;
+	font-size: 1rem;
+	font-family: $cinzel;
+	list-style: circle;
+}
+.container-mini4{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone12promax.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
+}
+
+.container-mini4-text{
+	color: $white;
+	text-align: center;
+	width: 30%;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	font-family: $cinzel;
+	list-style: circle;
+}
+
+.container-mini5{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone13mini.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
+}
+
+.container-mini5-text{
+	color: $white;
+	text-align: center;
+	width: 30%;
+	font-size: 1rem;
+	font-family: $cinzel;
+	list-style: circle;
+}
+.container-mini6{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../img/iphone13.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	padding-bottom: 40px;
+	background-blend-mode: soft-light;
+	background-color: rgb(40, 40, 40);
+	padding: 20px 10px 20px 10px;
+	margin-bottom: 3%;
+}
+
+.container-mini6-text{
+	color: $white;
+	text-align: center;
+	width: 30%;
+	font-size: 1rem;
+	font-family: $cinzel;
+	list-style: circle;
+}
+
+.iphones-order{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
