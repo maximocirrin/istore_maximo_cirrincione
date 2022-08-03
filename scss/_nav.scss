@@ -1,5 +1,5 @@
 nav{
-	background-color: $mainColor;
+	background-color: map-get($map:$paleta,$key: ‘uno’);
 	border-radius: 20px;
 	padding: 10px;
 	margin-bottom: 30px;
@@ -14,7 +14,7 @@ nav{
 }
 
 .bg-nav{
-	background-color: $mainColor;
+	background-color: map-get($map:$paleta,$key: ‘uno’);
 	width: 96vw;
 	margin-left: 1%;
 }
@@ -36,7 +36,7 @@ nav{
 
 #animaciones-links{
 	text-decoration: none;
-	color: whitesmoke;
+	color: $white;
 	display: flex;
 	&:hover{
 		text-decoration: none;

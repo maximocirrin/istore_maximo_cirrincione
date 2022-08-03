@@ -11,7 +11,7 @@
 //*footer
 
 footer{
-	background-color: $mainColor;
+	background-color: map-get($map:$paleta,$key: ‘uno’);
 	border-radius: 20px;
 	padding: 10px;
 	width: 96vw;
@@ -55,7 +55,7 @@ footer div div{
 }
 
 .nosotros-text{
-	background-color: #7E7979;
+	background-color: map-get($map:$paleta,$key: ‘tres’);
 	border-radius: 20px;
 	padding: 10px 20px 10px 20px;
 	align-self: center;
@@ -78,10 +78,8 @@ footer div div{
 }
 
 .nosotros__center{
-	display: flex;
-	justify-content: center;
+	@include d-flex(center,center);
 	flex-direction: column;
-	align-content: center;
 }
 
 //*ends nosotros

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -74,8 +75,8 @@ footer div div {
 .nosotros__center {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  align-content: center;
 }
 
 .animation__up:hover {
@@ -107,165 +108,81 @@ footer div div {
   color: #D7D5D5;
   text-align: center;
   width: 50%;
-  font-family: "Cinzel", serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.container-mini1 {
+.container-mini, .container-mini6, .container-mini5, .container-mini4, .container-mini3, .container-mini2, .container-mini1 {
   width: 400px;
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/iphone12.jpg);
-  background-size: cover;
-  background-position: center;
   border-radius: 20px;
   padding-bottom: 40px;
-  background-blend-mode: soft-light;
-  background-color: rgb(40, 40, 40);
   padding: 20px 10px 20px 10px;
   margin-bottom: 3%;
 }
 
-.container-mini1-text {
+.container-mini1 {
+  background: url(../img/iphone12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(40, 40, 40);
+}
+
+.container-mini1-text, .container-mini4-text {
   color: #D7D5D5;
   text-align: center;
   width: 30%;
   font-size: 1rem;
-  font-family: "Cinzel", serif;
+  font-family: "Roboto", sans-serif;
   list-style: circle;
 }
 
 .container-mini2 {
-  width: 400px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: url(../img/iphone12mini.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
-  padding-bottom: 40px;
   background-blend-mode: soft-light;
   background-color: rgb(40, 40, 40);
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 3%;
-}
-
-.container-mini2-text {
-  color: #D7D5D5;
-  text-align: center;
-  width: 30%;
-  font-size: 1rem;
-  font-family: "Cinzel", serif;
-  list-style: circle;
 }
 
 .container-mini3 {
-  width: 400px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: url(../img/iphone12pro.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
-  padding-bottom: 40px;
   background-blend-mode: soft-light;
   background-color: rgb(40, 40, 40);
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 3%;
-}
-
-.container-mini3-text {
-  color: #D7D5D5;
-  text-align: center;
-  width: 30%;
-  font-size: 1rem;
-  font-family: "Cinzel", serif;
-  list-style: circle;
 }
 
 .container-mini4 {
-  width: 400px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: url(../img/iphone12promax.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
-  padding-bottom: 40px;
   background-blend-mode: soft-light;
   background-color: rgb(40, 40, 40);
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 3%;
 }
 
 .container-mini4-text {
-  color: #D7D5D5;
-  text-align: center;
-  width: 30%;
-  font-size: 1rem;
   display: flex;
   flex-direction: column;
-  font-family: "Cinzel", serif;
-  list-style: circle;
 }
 
 .container-mini5 {
-  width: 400px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: url(../img/iphone13mini.jpg);
+  background: url(../img/iphone13mini.svg);
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
-  padding-bottom: 40px;
   background-blend-mode: soft-light;
   background-color: rgb(40, 40, 40);
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 3%;
-}
-
-.container-mini5-text {
-  color: #D7D5D5;
-  text-align: center;
-  width: 30%;
-  font-size: 1rem;
-  font-family: "Cinzel", serif;
-  list-style: circle;
 }
 
 .container-mini6 {
-  width: 400px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: url(../img/iphone13.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
-  padding-bottom: 40px;
   background-blend-mode: soft-light;
   background-color: rgb(40, 40, 40);
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 3%;
-}
-
-.container-mini6-text {
-  color: #D7D5D5;
-  text-align: center;
-  width: 30%;
-  font-size: 1rem;
-  font-family: "Cinzel", serif;
-  list-style: circle;
 }
 
 .iphones-order {
@@ -310,7 +227,7 @@ nav ul li {
 
 #animaciones-links {
   text-decoration: none;
-  color: whitesmoke;
+  color: #D7D5D5;
   display: flex;
 }
 #animaciones-links:hover {
@@ -390,12 +307,12 @@ nav ul li {
   padding-left: 15px;
   padding-top: 10px;
   border-radius: 15px;
-  background-color: rgb(10, 10, 10);
+  background-color: rgba(10, 10, 10, 0.7);
   width: 100px;
   height: 200px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 

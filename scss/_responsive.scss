@@ -1,15 +1,13 @@
 @media (min-width: 435px){
 	.productos__border--white{
-			margin-left: 10px;
-			margin-right: 10px;
+			@include margin(10px,10px);
 	}
 }
 
 
 @media (min-width: 699px){
 	.productos__border--white{
-		margin-left: 20px;
-		margin-right: 20px;
+		@include margin(20px,20px);
 	}
 }
 
@@ -22,13 +20,11 @@
 
 @media (min-width: 1024px){
 	.productos__border--white{
-		width: 100px;
-		height: 200px;
+		@include size(100px,200px);
 	}
 
 	.productos__img--size{
-		width: 80px;
-		height: 100px;
+		@include size(80px,100px);
 	}
 
 	div ul div li h6{ 
