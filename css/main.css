@@ -134,10 +134,13 @@ footer div div {
 .container-mini1-text, .container-mini4-text {
   color: #D7D5D5;
   text-align: center;
-  width: 30%;
+  width: 60%;
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   list-style: circle;
+}
+.container-mini1-text li, .container-mini4-text li {
+  font-size: 0.8rem;
 }
 
 .container-mini2 {
@@ -189,6 +192,19 @@ footer div div {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.terminos-y-condiciones-box {
+  width: 100%;
+  height: 20vh;
+  padding-left: 8%;
+  padding-right: 5%;
+  margin-bottom: -1vh;
+}
+
+.terminos-y-condiciones-text {
+  font-style: "Roboto", sans-serif;
+  font-size: 0, 5rem;
 }
 
 nav {

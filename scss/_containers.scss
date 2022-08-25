@@ -45,10 +45,13 @@
 .container-mini1-text{
 	color: $white;
 	text-align: center;
-	width: 30%;
+	width: 60%;
 	font-size: 1rem;
 	font-family: $roboto;
 	list-style: circle;
+		li{
+			font-size: 0.8rem;
+		}
 }
 
 .container-mini2{
@@ -106,4 +109,17 @@
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+
+.terminos-y-condiciones-box{
+	width: 100%;
+	height: 20vh;
+	padding-left: 8%;
+	padding-right: 5%;
+	margin-bottom: -1vh;
+}
+
+.terminos-y-condiciones-text{
+	font-style: $roboto;
+	font-size: 0,5rem;
 }
