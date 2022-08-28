@@ -134,7 +134,7 @@ footer div div {
 .container-mini1-text, .container-mini4-text {
   color: #D7D5D5;
   text-align: center;
-  width: 60%;
+  width: 80%;
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   list-style: circle;
@@ -226,6 +226,7 @@ nav ul li {
   background-color: rgba(48, 52, 51, 0.7);
   width: 96vw;
   margin-left: 1%;
+  z-index: 2;
 }
 
 #nav__justify {
@@ -465,6 +466,50 @@ textarea {
     width: 14vw;
     margin-left: 18px;
   }
+}
+.cards-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.big-card {
+  background-color: #565252;
+  width: 90vw;
+  display: flex;
+  align-self: center;
+  margin-bottom: 4vh;
+}
+
+.cards-text {
+  font-size: 0.8rem;
+}
+
+.small-card {
+  background-color: #565252;
+  width: 40vw;
+  margin-bottom: 3vh;
+}
+.small-card p {
+  font-size: 0.7rem;
+}
+
+.long-card {
+  background-color: #565252;
+  width: 90vw;
+  margin-bottom: 3vh;
+}
+.long-card p {
+  font-size: 0.7rem;
+}
+.long-card img {
+  eight: 20%;
+}
+
+.cards-order {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=main.css.map */

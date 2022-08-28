@@ -1,0 +1,44 @@
+.cards-flex{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.big-card{
+	background-color: map-get($map:$paleta,$key: ‘dos’);
+	width: 90vw;
+	display: flex;
+	align-self: center;
+	margin-bottom: 4vh;
+}
+
+.cards-text{
+	font-size: 0.8rem;
+}
+
+.small-card{
+	background-color: map-get($map:$paleta,$key: ‘dos’);
+	width: 40vw;
+	margin-bottom: 3vh;
+			p{
+				font-size: 0.7rem;
+			}
+}
+
+.long-card{
+	background-color: map-get($map:$paleta,$key: ‘dos’);
+	width: 90vw;
+	margin-bottom: 3vh;
+			p{
+				font-size: 0.7rem;
+			}
+			img{
+				eight: 20%;
+			}
+}
+
+.cards-order{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}

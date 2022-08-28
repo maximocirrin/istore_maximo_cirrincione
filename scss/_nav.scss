@@ -17,6 +17,7 @@ nav{
 	background-color: map-get($map:$paleta,$key: ‘uno’);
 	width: 96vw;
 	margin-left: 1%;
+	z-index: 2;
 }
 
 #nav__justify{
